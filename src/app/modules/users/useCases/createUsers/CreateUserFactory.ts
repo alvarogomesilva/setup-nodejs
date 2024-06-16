@@ -7,4 +7,5 @@ const repository = new CreateUserRepository(prisma)
 const useCase = new CreateUserUseCase(repository)
 const controller = new CreateUserController(useCase)
 
-export const CreateUserFactory = controller
+const CreateUserFactory = controller
+export default CreateUserFactory
