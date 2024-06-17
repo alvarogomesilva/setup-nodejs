@@ -5,6 +5,11 @@ export const create = (data: unknown): HttpResponse => ({
   body: data
 })
 
+export const remove = (data: unknown): HttpResponse => ({
+  statusCode: 200,
+  body: data
+})
+
 
 // ERRORS
 // ========

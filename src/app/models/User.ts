@@ -9,6 +9,10 @@ export interface ICreateUserDTO {
     password: string
 }
 
+export interface IDeleteUserDTO {
+    id: string
+}
+
 export interface IUser {
     id?: string
     name: string
